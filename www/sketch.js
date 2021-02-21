@@ -1,7 +1,7 @@
 let canvas;
 
 function setup() {
-  let canvas = createCanvas(deviceWidth - (deviceWidth * .15), deviceHeight);
+  let canvas = createCanvas(windowWidth - (windowWidth * .15), windowHeight);
   canvas.parent('main');
 }
 
