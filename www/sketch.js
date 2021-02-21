@@ -4,7 +4,7 @@ let followX, followY;
 let size;
 
 function setup() {
-  let canvas = createCanvas(displayWidth - (displayWidth * .15), displayHeight);
+  let canvas = createCanvas(displayWidth, displayHeight);
   canvas.parent('main');
   s = 10
   size = 50;
@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   background(0);
-  if(mouseX >= displayWidth *  {
+  if(mouseX >= displayWidth ) {
     rect(mouseX, mouseY, size, size);
   } else {
     rect(s, 50, size, size);
