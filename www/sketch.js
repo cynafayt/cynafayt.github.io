@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   background(0);
-  if(mouseX >= 0) {
+  if(mouseX >= displayWidth *  {
     rect(mouseX, mouseY, size, size);
   } else {
     rect(s, 50, size, size);
